@@ -41,21 +41,16 @@
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="515dp" />
 
-
-    <TextView
-        android:id="@+id/textView2"
+    <Button
+        android:id="@+id/btIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="28dp"
-        android:background="@drawable/orange_button_background"
-        android:backgroundTintMode="multiply"
-        android:bufferType="editable"
-        android:text="Get started"
-        android:textColor="#009688"
-        android:textSize="40dp"
+        android:layout_marginBottom="72dp"
+        android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints,TextContrastCheck" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
